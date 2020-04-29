@@ -21,13 +21,13 @@ public class DoubleList {
 
 	private static void DoubleList(ArrayList<String> list) {
 
-		// Set up for loop to remove evens
+		// Set up for loop to create doubles
 		for (int i = list.size() - 1; i >= 0; i--) {
 			String s = list.get(i);
 			list.add(i, s);
 		}
 
-		// check to see if evens were removed.
+		// check to see if double words were added.
 		System.out.println(list);
 
 	}
